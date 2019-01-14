@@ -19,7 +19,8 @@
         <ul v-cloak> <!--so that it doesn't show list untill data loaded-->
           <li v-for="movie in movies">
             <h3>{{ movie.name }}</h3>
-            <em>{{ movie.length }}</em>
+            <em>length: {{ movie.length }}</em>
+            <span class="votes">{{ movie.votes }}</span>
           </li>
         </ul>
       </div>
