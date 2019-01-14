@@ -1,6 +1,7 @@
 var app = new Vue({
   el: '.content',
 
+  // Your code goes in here
   data:{
     movies: []
   },
